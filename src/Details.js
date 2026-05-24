@@ -129,7 +129,7 @@ Versi Whatsapp : x.x.x.x (Messenger & Business).
 
 Effect Bug : Dapat Menyebabkan Whatsapp Tertutup Secara Paksa Di Beranda, Loading, Blank Setelah Aplikasi Tertutup Beberapa Kali, Bug ini Bersifat invisible (Tak Terlihat Oleh Target).`,
     techstack: "JavaScript",
-    previewLink: "https://telegra.ph/KUMPULAN-REVIEW-BUG-WHATSAPP-05-21",
+    previewLink: "https://drive.google.com/file/d/1i2i4Lhd3Q-mTx17aCBbZAv06lBTIrVC7",
     githubLink: "https://github.com",
   },
   {
