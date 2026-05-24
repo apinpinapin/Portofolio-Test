@@ -113,19 +113,21 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Bug Whatsapp Android",
+    title: "Script Bug Bot Whatsapp Via Telegram",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `Script Khusus Untuk Melakukan Exploitasi Whatsapp`,
     techstack: "JavaScript",
     previewLink: "https://telegra.ph/KUMPULAN-REVIEW-BUG-WHATSAPP-05-21",
     githubLink: "https://github.com",
   },
   {
-    title: "Bug Whatsapp Android",
+    title: "Bug Nomor Whatsapp Appstore",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `Perangkat : iphone.
+
+Versi Whatsapp : x.x.x.x (Messenger & Business).
+
+Effect Bug : Dapat Menyebabkan Whatsapp Tertutup Secara Paksa Di Beranda, Loading, Blank Setelah Aplikasi Tertutup Beberapa Kali, Bug ini Bersifat invisible (Tak Terlihat Oleh Target).`,
     techstack: "JavaScript",
     previewLink: "https://telegra.ph/KUMPULAN-REVIEW-BUG-WHATSAPP-05-21",
     githubLink: "https://github.com",
