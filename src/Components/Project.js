@@ -1,16 +1,23 @@
 import React from "react";
 
-function Project({ title, image, description, techstack, previewLink, githubLink }) {
+function Project({ title, image, description, techstack, previewLink, githubLink, perangkat, versiWhatsapp, jasabug, kodebug, enkripsi, tidakEnkripsi, note }) {
   return (
     <article className="rounded-xl mt-10 overflow-hidden shadow-xl shadow-slate-300 dark:shadow-slate-900">
       <img src={image} alt="" loading="lazy" />
       <div className="dark:bg-dark-card p-4">
         <h1 className="dark:text-light-heading font-semibold text-lg pt-1">{title}</h1>
+        {perangkat && (
+          <p className="text-sm text-gray-500 dark:text-gray-400 pt-2">
+            Perangkat : {perangkat}
+          </p>
+        )}
+        {versiWhatsapp && (
+          <p className="text-sm text-gray-500 dark:text-gray-400 pt-1">
+            Versi Whatsapp: {versiWhatsapp}
+          </p>
+        )}
         <p className="text-content pt-4 font-light">{description}</p>
-        <h3 className="text-dark-heading dark:text-light-heading font-medium pt-4">
-          Tech Stack : <span className="font-light">{techstack}</span>
-        </h3>
-        <div className="flex justify-between items-center mt-5">
+        <div className="flex flex-wrap gap-4 mt-5">
           <div className="flex items-center">
             <svg
               className="stroke-dark-heading dark:stroke-white inline-block min-w-fit"
@@ -39,7 +46,7 @@ function Project({ title, image, description, techstack, previewLink, githubLink
               rel="noreferrer noopener"
               className="underline pl-2 font-light dark:text-white"
             >
-              Live Preview
+              Review Vidio
             </a>
           </div>
           <div className="flex items-center">
@@ -67,6 +74,106 @@ function Project({ title, image, description, techstack, previewLink, githubLink
               View Code
             </a>
           </div>
+          {jasabug && (
+            <div className="flex items-center">
+              <svg
+                className="dark:fill-light-heading fill-dark-heading inline-block min-w-fit"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 1C6.48 1 2 5.48 2 11C2 16.52 6.48 21 12 21C17.52 21 22 16.52 22 11C22 5.48 17.52 1 12 1ZM12 19C7.59 19 4 15.41 4 11C4 6.59 7.59 3 12 3C16.41 3 20 6.59 20 11C20 15.41 16.41 19 12 19ZM12.5 9H11V13H12.5V9ZM12 6C11.45 6 11 6.45 11 7C11 7.55 11.45 8 12 8C12.55 8 13 7.55 13 7C13 6.45 12.55 6 12 6Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span className="pl-2 font-light dark:text-white">
+                Harga: Rp {jasabug}
+              </span>
+            </div>
+          )}
+          {enkripsi && (
+            <div className="flex items-center">
+              <svg
+                className="dark:fill-light-heading fill-dark-heading inline-block min-w-fit"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 1C6.48 1 2 5.48 2 11C2 16.52 6.48 21 12 21C17.52 21 22 16.52 22 11C22 5.48 17.52 1 12 1ZM12 19C7.59 19 4 15.41 4 11C4 6.59 7.59 3 12 3C16.41 3 20 6.59 20 11C20 15.41 16.41 19 12 19ZM12.5 9H11V13H12.5V9ZM12 6C11.45 6 11 6.45 11 7C11 7.55 11.45 8 12 8C12.55 8 13 7.55 13 7C13 6.45 12.55 6 12 6Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span className="pl-2 font-light dark:text-white">
+                Enkripsi: Rp {enkripsi}
+              </span>
+            </div>
+          )}
+          {tidakEnkripsi && (
+            <div className="flex items-center">
+              <svg
+                className="dark:fill-light-heading fill-dark-heading inline-block min-w-fit"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 1C6.48 1 2 5.48 2 11C2 16.52 6.48 21 12 21C17.52 21 22 16.52 22 11C22 5.48 17.52 1 12 1ZM12 19C7.59 19 4 15.41 4 11C4 6.59 7.59 3 12 3C16.41 3 20 6.59 20 11C20 15.41 16.41 19 12 19ZM12.5 9H11V13H12.5V9ZM12 6C11.45 6 11 6.45 11 7C11 7.55 11.45 8 12 8C12.55 8 13 7.55 13 7C13 6.45 12.55 6 12 6Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span className="pl-2 font-light dark:text-white">
+                Tidak Enkripsi: Rp {tidakEnkripsi}
+              </span>
+            </div>
+          )}
+          {kodebug && (
+            <div className="flex items-center">
+              <svg
+                className="dark:fill-light-heading fill-dark-heading inline-block min-w-fit"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19.43 12.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.52l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.34.24.52.49.52h4c.25 0 .46-.18.49-.52l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.23.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span className="pl-2 font-light dark:text-white">
+                Kode Bug: Rp {kodebug}
+              </span>
+            </div>
+          )}
+          {note && (
+            <div className="flex items-center">
+              <svg
+                className="dark:fill-light-heading fill-dark-heading inline-block min-w-fit"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span className="pl-2 font-light dark:text-white">
+                Note: {note}
+              </span>
+            </div>
+          )}
         </div>
       </div>
     </article>

@@ -13,8 +13,8 @@ function Footer() {
           Apin.Mp5
         </a>{" "}
         with
-        <span className="text-gradient font-medium"> Love</span> &
-        <span className="text-gradient font-medium"> Coffee</span>
+        <span className="text-gradient font-medium"> Javascript</span> &
+        <span className="text-gradient font-medium"> Nodejs</span>
       </p>
     </footer>
   );

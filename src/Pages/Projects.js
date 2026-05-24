@@ -12,9 +12,16 @@ function Projects() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10">
           {React.Children.toArray(
             projectDetails.map(
-              ({ title, image, description, techstack, previewLink, githubLink }) => (
+              ({ title, perangkat, "versi whatsapp": versiWhatsapp, jasabug, "kode bug": kodebug, enkripsi, tidakEnkripsi, note, image, description, techstack, previewLink, githubLink }) => (
                 <Project
                   title={title}
+                  perangkat={perangkat}
+                  versiWhatsapp={versiWhatsapp}
+                  jasabug={jasabug}
+                  kodebug={kodebug}
+                  enkripsi={enkripsi}
+                  tidakEnkripsi={tidakEnkripsi}
+                  note={note}
                   image={image}
                   description={description}
                   techstack={techstack}
