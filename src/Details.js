@@ -110,6 +110,23 @@ export const techStackDetails = {
   figma: figma,
 };
 
+export const jasaBugkDetails = {
+  html: html,
+  css: css,
+  js: js,
+  react: react,
+  redux: redux,
+  sass: sass,
+  tailwind: tailwind,
+  bootstrap: bootstrap,
+  vscode: vscode,
+  postman: postman,
+  npm: npm,
+  git: git,
+  github: github,
+  figma: figma,
+};
+
 // Enter your Project Details here
 export const projectDetails = [
   {
