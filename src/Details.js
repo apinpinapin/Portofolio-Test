@@ -150,10 +150,13 @@ export const projectDetails = [
     githubLink: "https://github.com",
   },
   {
-    title: "Bug Whatsapp Iphone",
+    title: "Bug Nomor Whatsapp Appstore ",
     image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `Perangkat : iphone.
+                  Versi Whatsapp : x.x.x.x (Messenger & Business).
+                  Effect Bug : Dapat Menyebabkan Whatsapp Macet Di Beranda, Bug ini Bersifat invisible (Tidak Terlihat Oleh Target).`,
+    jasa bug : "25.000."
+    kode bug : "100.000."
     techstack: "JavaScript",
     previewLink: "https://telegra.ph/KUMPULAN-REVIEW-BUG-WHATSAPP-05-21",
     githubLink: "https://github.com",
