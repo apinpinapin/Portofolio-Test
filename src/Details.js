@@ -123,11 +123,11 @@ export const projectDetails = [
   {
     title: "Bug Nomor Whatsapp Appstore",
     image: projectImage2,
-    description: `Perangkat : iphone.
-
-Versi Whatsapp : x.x.x.x (Messenger & Business).
-
-Effect Bug : Dapat Menyebabkan Whatsapp Tertutup Secara Paksa Di Beranda, Loading, Blank Setelah Aplikasi Tertutup Beberapa Kali, Bug ini Bersifat invisible (Tak Terlihat Oleh Target).`,
+    description: `Perangkat : iphone`
+                  `Versi Whatsapp : x.x.x.x (Messenger & Business).`,
+                  `Effect Bug : Dapat Menyebabkan Whatsapp Tertutup Secara Paksa Di Beranda, Loading, Blank Setelah Aplikasi Tertutup Beberapa Kali, Bug ini Bersifat invisible (Tak Terlihat Oleh Target).`,
+    jasa bug : "25.000."
+    kode bug : "100.000."
     techstack: "JavaScript",
     previewLink: "https://drive.google.com/file/d/1i2i4Lhd3Q-mTx17aCBbZAv06lBTIrVC7",
     githubLink: "https://github.com",
