@@ -1,6 +1,6 @@
 import React from "react";
 
-function Project({ title, image, description, techstack, previewLink, githubLink, perangkat, versiWhatsapp, jasabug, kodebug, enkripsi, tidakEnkripsi, note }) {
+function Project({ title, image, description, efekBug, techstack, previewLink, githubLink, perangkat, versiWhatsapp, jasabug, jumlahBug, kodebug, enkripsi, tidakEnkripsi, note }) {
   return (
     <article className="rounded-xl mt-10 overflow-hidden shadow-xl shadow-slate-300 dark:shadow-slate-900">
       <img src={image} alt="" loading="lazy" />
@@ -16,7 +16,15 @@ function Project({ title, image, description, techstack, previewLink, githubLink
             Versi Whatsapp: {versiWhatsapp}
           </p>
         )}
-        <p className="text-content pt-4 font-light">{description}</p>
+        {efekBug && (
+          <p className="text-content pt-4 font-light">
+            <span className="font-medium text-dark-heading dark:text-light-heading">Efek Bug: </span>
+            {efekBug}
+          </p>
+        )}
+        {description && (
+          <p className="text-content pt-4 font-light">{description}</p>
+        )}
         <div className="flex flex-wrap gap-4 mt-5">
           <div className="flex items-center">
             <svg
@@ -90,7 +98,27 @@ function Project({ title, image, description, techstack, previewLink, githubLink
                 />
               </svg>
               <span className="pl-2 font-light dark:text-white">
-                Harga: Rp {jasabug}
+                Jasa Bug: Rp {jasabug}
+              </span>
+            </div>
+          )}
+          {jumlahBug && (
+            <div className="flex items-center">
+              <svg
+                className="dark:fill-light-heading fill-dark-heading inline-block min-w-fit"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 1C6.48 1 2 5.48 2 11C2 16.52 6.48 21 12 21C17.52 21 22 16.52 22 11C22 5.48 17.52 1 12 1ZM12 19C7.59 19 4 15.41 4 11C4 6.59 7.59 3 12 3C16.41 3 20 6.59 20 11C20 15.41 16.41 19 12 19ZM12.5 9H11V13H12.5V9ZM12 6C11.45 6 11 6.45 11 7C11 7.55 11.45 8 12 8C12.55 8 13 7.55 13 7C13 6.45 12.55 6 12 6Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span className="pl-2 font-light dark:text-white">
+                Jumlah Bug: {jumlahBug}
               </span>
             </div>
           )}
@@ -154,7 +182,7 @@ function Project({ title, image, description, techstack, previewLink, githubLink
               </span>
             </div>
           )}
-          {note && (
+          {note && note !== "-" && (
             <div className="flex items-center">
               <svg
                 className="dark:fill-light-heading fill-dark-heading inline-block min-w-fit"
