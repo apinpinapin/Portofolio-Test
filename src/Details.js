@@ -136,7 +136,7 @@ export const projectDetails = [
     note: "-",
     image: projectImage2,
     "efek bug": `Menyebabkan WhatsApp target tertutup otomatis di beranda saat dibuka (Force Close Home) + Loading + Blank. Bug bersifat Invisible (tidak terlihat).`,
-    previewLink: "https://www.instagram.com/reel/DY9x4Ouyc__/",
+    previewLink: "https://drive.google.com/file/d/1tHFh-fPk_1nUU7E5p_Le_WQwXS2sXlZN",
     githubLink: "https://github.com",
   },
   {
@@ -148,7 +148,7 @@ export const projectDetails = [
     note: "-",
     image: projectImage3,
     "efek bug": `Menyebabkan WhatsApp target macet-macetan di beranda saat dibuka (Lag Home), Bug bersifat Invisible (tidak terlihat).`,
-    previewLink: "https://www.instagram.com/reel/DY94FCfS5sZ/",
+    previewLink: "https://drive.google.com/file/d/1gqH_FDYfsh5bl5kh3xDJh2kPR74pYrLa",
     githubLink: "https://github.com",
   },
   {
@@ -160,7 +160,7 @@ export const projectDetails = [
     note: "-",
     image: projectImage4,
     "efek bug": `Dapat menyebabkan Whatsapp target macet saat membuka pesan pada Group, Admin & Member terkena efeknya (pengguna iphone).`,
-    previewLink: "https://drive.google.com/file/d/1i2i4Lhd3Q-mTx17aCBbZAv06lBTIrVC7",
+    previewLink: "-",
     githubLink: "https://github.com",
   },
   {
@@ -172,7 +172,7 @@ export const projectDetails = [
     note: "Nomor pengirim (Bot) wajib sekontak/saling save dengan nomor target.",
     image: projectImage5,
     "efek bug": `Menyebabkan WhatsApp target tertutup otomatis di beranda saat dibuka (Force Close Home), Bug bersifat Invisible (tidak terlihat).`,
-    previewLink: "https://www.instagram.com/reel/DYXUo9Zyab1/",
+    previewLink: "https://drive.google.com/file/d/1FiqA-4EjndYFeW8bgF8N5d1iVcrOW9di/",
     githubLink: "https://github.com",
   },
   {
@@ -184,7 +184,7 @@ export const projectDetails = [
     note: "Nomor pengirim (Bot) wajib sekontak/saling save dengan nomor target.",
     image: projectImage6,
     "efek bug": `Menyebabkan WhatsApp target tertutup otomatis di beranda saat dibuka (Force Close Home), Bug bersifat Invisible (tidak terlihat).`,
-    previewLink: "https://www.instagram.com/reel/DYXUo9Zyab1/",
+    previewLink: "https://drive.google.com/file/d/1FiqA-4EjndYFeW8bgF8N5d1iVcrOW9di/",
     githubLink: "https://github.com",
   },
   {
