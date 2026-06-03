@@ -178,13 +178,13 @@ export const projectDetails = [
   {
     title: "Bug Nomor WhatsApp Android.",
     "versi whatsapp": "2.26.20.73/xxx (Messenger & Business).",
-    jasabug: "25.000 / nomor.",
+    jasabug: "30.000 / nomor.",
     jumlahBug: "1000 / Submit.",
     "kode bug": "100.000.",
-    note: "Nomor pengirim (Bot) wajib sekontak/saling save dengan nomor target.",
+    note: "Bug Aktif Di Jam Tertentu Konsultasi Admin Terlebih Dahulu.",
     image: projectImage6,
-    "efek bug": `Menyebabkan WhatsApp target tertutup otomatis di beranda saat dibuka (Force Close Home), Bug bersifat Invisible (tidak terlihat).`,
-    previewLink: "https://drive.google.com/file/d/1FiqA-4EjndYFeW8bgF8N5d1iVcrOW9di/",
+    "efek bug": `Menyebabkan WhatsApp target mengalami keterlambatan saat mengirim & menerima pesan (Delay Chat) + macet (Freeze Chat) + aplikasi tertutup secara paksa (Force Close Home), Bug bersifat tidak terlihat (Invisible).`,
+    previewLink: "https://drive.google.com/file/d/1NjU4FsTBx1UsVzDd0rkYeeg5E1SMaglL/view",
     githubLink: "https://github.com",
   },
   {
