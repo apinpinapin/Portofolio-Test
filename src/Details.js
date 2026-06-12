@@ -136,7 +136,7 @@ export const projectDetails = [
     note : "-",
     image : projectImage2,
     "efek bug" : `Menyebabkan WhatsApp target tertutup otomatis di beranda saat dibuka (Force Close Home) + Blank. Bug bersifat Invisible (tidak terlihat).`,
-    previewLink : "https://drive.google.com/file/d/1JKVK5VPDBboBLCu9-_U_IicbmhQvYhfV",
+    previewLink : "https://drive.google.com/file/d/1exl5eZhvsWoVDEcL6AsqfUnbXPATuTRm",
     githubLink : "https://github.com",
   },
   {

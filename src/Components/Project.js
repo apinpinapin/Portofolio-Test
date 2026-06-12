@@ -13,12 +13,12 @@ function Project({ title, image, description, efekBug, techstack, previewLink, g
         )}
         {versiWhatsapp && (
           <p className="text-sm text-gray-500 dark:text-gray-400 pt-1">
-            Versi Whatsapp: {versiWhatsapp}
+            Versi Whatsapp : {versiWhatsapp}
           </p>
         )}
         {efekBug && (
           <p className="text-content pt-4 font-light">
-            <span className="font-medium text-dark-heading dark:text-light-heading">Efek Bug: </span>
+            <span className="font-medium text-dark-heading dark:text-light-heading">Efek Bug : </span>
             {efekBug}
           </p>
         )}
@@ -98,7 +98,7 @@ function Project({ title, image, description, efekBug, techstack, previewLink, g
                 />
               </svg>
               <span className="pl-2 font-light dark:text-white">
-                Jasa Bug: Rp {jasabug}
+                Jasa Bug : Rp {jasabug}
               </span>
             </div>
           )}
@@ -118,7 +118,7 @@ function Project({ title, image, description, efekBug, techstack, previewLink, g
                 />
               </svg>
               <span className="pl-2 font-light dark:text-white">
-                Jumlah Bug: {jumlahBug}
+                Jumlah Bug : {jumlahBug}
               </span>
             </div>
           )}
@@ -138,7 +138,7 @@ function Project({ title, image, description, efekBug, techstack, previewLink, g
                 />
               </svg>
               <span className="pl-2 font-light dark:text-white">
-                Enkripsi: Rp {enkripsi}
+                Enkripsi : Rp {enkripsi}
               </span>
             </div>
           )}
@@ -158,7 +158,7 @@ function Project({ title, image, description, efekBug, techstack, previewLink, g
                 />
               </svg>
               <span className="pl-2 font-light dark:text-white">
-                Tidak Enkripsi: Rp {tidakEnkripsi}
+                Tidak Enkripsi : Rp {tidakEnkripsi}
               </span>
             </div>
           )}
@@ -178,7 +178,7 @@ function Project({ title, image, description, efekBug, techstack, previewLink, g
                 />
               </svg>
               <span className="pl-2 font-light dark:text-white">
-                Kode Bug: Rp {kodebug}
+                Kode Bug : Rp {kodebug}
               </span>
             </div>
           )}
@@ -198,7 +198,7 @@ function Project({ title, image, description, efekBug, techstack, previewLink, g
                 />
               </svg>
               <span className="pl-2 font-light dark:text-white">
-                Note: {note}
+                Note : {note}
               </span>
             </div>
           )}
